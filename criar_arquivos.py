@@ -8,7 +8,7 @@ def criar_arquivos():
 
     for ext in extensoes:
         for i in range(1, 4):  # 3 arquivos de cada
-            arquivo = pasta / f"{ext}_{i}.{ext}"
+            arquivo = pasta / f"Arquivo_{ext}_{i}.{ext}"
             arquivo.write_text("conteúdo de teste")
 
     print("Arquivos criados!")
